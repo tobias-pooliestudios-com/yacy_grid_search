@@ -1,0 +1,6 @@
+version: '2'
+services:
+  yacy_search:
+    build: .
+    ports:
+      - 8800:8800
