@@ -11,7 +11,7 @@ sourceSets {
     }
 }
 
-mainClassName = "net.yacy.grid.loader.Loader"
+mainClassName = "net.yacy.grid.search.Search"
 applicationDefaultJvmArgs = ["-Xmx4g"]
 
 group = 'net.yacy'
