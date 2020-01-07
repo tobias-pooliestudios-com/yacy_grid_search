@@ -9,7 +9,9 @@ RUN gradle build --info && \
     mkdir build/distributions/app && \
     unzip build/distributions/*.zip -d build/distributions/app && \
     mkdir data/search-8800/conf/ -p && \
-    cp -rf conf/* data/search-8800/conf/
+    mkdir data/aggregation-8800/conf/ -p && \
+    cp -rf conf/* data/search-8800/conf/ &&\
+    cp -rf conf/* data/aggregation-8800/conf/
 
 FROM openjdk:8-alpine as runner
 
