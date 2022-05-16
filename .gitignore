@@ -7,4 +7,9 @@ data/
 .DS_Store
 .settings
 .idea/
+*.log
 
+
+# nix direnv setup #
+####################
+.direnv/
